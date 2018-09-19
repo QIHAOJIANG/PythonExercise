@@ -6,10 +6,7 @@ This is Exercise1 for september 09,2018.
 """
 
 
-user1 = input("please input your name:")
-age1 = int(input("please input your age:"))
-
-print(type(user1))
-print(type(age1))
-
-print("100 years old:", 100-age1)
+name = input("What is your name: ")
+age = int(input("How old are you: "))
+year = str((2018 - age)+100)
+print(name + " will be 100 years old in the year " + year)
